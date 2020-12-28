@@ -1,5 +1,7 @@
 import { Button } from '../../src'
 
+import '../../dist/tailwind.css'
+
 export default {
   title: 'Example/Button',
   component: Button,

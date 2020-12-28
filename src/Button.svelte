@@ -4,7 +4,7 @@
   export let red = false
 </script>
 
-<button style="color: {red ? 'red' : 'green'}">{title}</button>
+<button class="rounded p-2 bg-blue-200" style="color: {red ? 'red' : 'green'}">{title}</button>
 
 <style>
 </style>

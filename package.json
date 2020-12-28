@@ -10,7 +10,8 @@
     "dev": "rollup -c -w",
     "test": "echo \"Error: no test specified\" && exit 1",
     "storybook": "start-storybook -p 6006",
-    "build-storybook": "build-storybook"
+    "build-storybook": "build-storybook",
+    "build-tailwind": "postcss ./src/stories/assets/tailwind.css -o ./dist/tailwind.css"
   },
   "keywords": [],
   "author": "",
@@ -24,7 +25,11 @@
     "@storybook/addon-links": "^6.1.11",
     "@storybook/svelte": "^6.1.11",
     "@tsconfig/svelte": "^1.0.10",
+    "autoprefixer": "^9.0.0",
     "babel-loader": "^8.2.2",
+    "postcss": "^8.2.1",
+    "postcss-cli": "^8.3.1",
+    "postcss-nesting": "^7.0.1",
     "prettier": "^2.2.1",
     "prettier-plugin-svelte": "^1.4.2",
     "rollup": "^2.35.1",

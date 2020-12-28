@@ -3,7 +3,7 @@
   export let type = 'text'
 </script>
 
-<input {type} />
+<input class="rounded" {type} />
 
 <style>
 </style>
