@@ -1,8 +1,8 @@
-<script>
+<script lang="ts">
   console.log("Button");
 </script>
 
 <style>
 </style>
 
-<button />
+<button><slot /></button>

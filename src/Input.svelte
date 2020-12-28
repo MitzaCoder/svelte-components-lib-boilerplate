@@ -1,4 +1,4 @@
-<script>
+<script lang="ts">
   console.log("Input");
   export let type = "text";
 </script>
