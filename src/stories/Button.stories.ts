@@ -1,10 +1,10 @@
-import { Button } from "../../src";
+import { Button } from '../../src'
 
 export default {
-  title: "Example/Button",
+  title: 'Example/Button',
   component: Button,
   argTypes: {
-    title: { control: "text" },
+    title: { control: 'text' },
     //   primary: { control: 'boolean' },
     //   backgroundColor: { control: 'color' },
     //   size: {
@@ -12,7 +12,7 @@ export default {
     //   },
     //   onClick: { action: 'onClick' },
   },
-};
+}
 
 const Template = ({ onClick, ...args }) => ({
   Component: Button,
@@ -20,13 +20,13 @@ const Template = ({ onClick, ...args }) => ({
   // on: {
   //   click: onClick,
   // },
-});
+})
 
-export const Primary = Template.bind({});
+export const Primary = Template.bind({})
 Primary.args = {
-  title: "Mihai",
+  title: 'Mihai',
   red: false,
-};
+}
 
 // export const Secondary = Template.bind({});
 // Secondary.args = {
